@@ -2,7 +2,7 @@
 
 branch='development';
 repository='Merlin';
-organisation='Repository';
+organisation='mwayi';
 activityPrefix='Merge pull';
 
 while [[ $# -gt 0 ]]; do

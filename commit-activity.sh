@@ -2,7 +2,7 @@
 
 branch='development';
 repository='Merlin';
-organisation='mwayi';
+organisation='Repository';
 activityPrefix='Merge pull';
 
 while [[ $# -gt 0 ]]; do
@@ -17,7 +17,7 @@ while [[ $# -gt 0 ]]; do
 		repository="${key#*=}"
 		;;
 		# Branch prefix
-		-o=*)
+		-bp=*)
 		organisation="${key#*=}"
 		;;
 		# Branch prefix
@@ -32,8 +32,8 @@ while [[ $# -gt 0 ]]; do
 	# Shift after checking all the cases to get the next option
 	shift;
 done;
-	
-url='https://github.com/$organisation/$repository/issues';
+
+url="https://github.com/$organisation/$repository/issues";
 
 declare -a features=();
 declare -a deprecated=();

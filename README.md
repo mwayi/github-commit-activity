@@ -2,7 +2,7 @@
 Get a succinct commit log of work activity.
 
 ```
-bash commit-activity [oprions]
+bash commit-activity [options]
 ```
 
 ## Options
@@ -21,6 +21,22 @@ Repository
 ```
 -r=Merlin
 ```
+
+## Basic convenstions to follow
+
+### Use pull requests
+
+Ensure that the branch being targeted always uses pull requests.  
+
+
+### Branch names
+
+In order to categorise your branches with one of the following:-
+
+- feature
+- bug-fix
+- patch
+- depcreate
 
 ## Output
 

@@ -17,7 +17,7 @@ while [[ $# -gt 0 ]]; do
 		repository="${key#*=}"
 		;;
 		# Branch prefix
-		-bp=*)
+		-o=*)
 		organisation="${key#*=}"
 		;;
 		# Branch prefix
